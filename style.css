@@ -416,3 +416,7 @@ label{
   margin-left: 20px;
   flex-grow: 1;
  }
+ .box-shop-img{
+  /* background-color: white; */
+  background-color: black;
+ }
