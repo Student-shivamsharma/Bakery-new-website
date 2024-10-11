@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<style>
+  .navbar{
+  position: fixed;
+  top : 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+body{
+      width : 120v;
+      background-image: url("images/upchoco.jpg");
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  object-fit: cover;
+    }
+    @media (max-width : 700px){
+      .navbar{
+    position: relative;
+  }
+    }
+</style>
+<body>
+  <div class="navbar">
+
+    <div class="nav-logo">
+      <div class="logo">
+        <img src="images/bakerylogo1.png" id="logo-nav">
+      </div>
+    </div>
+
+    <div class="nav-options">
+        <ul>
+          <li><a class="home" href="index.html">HOME</a></li>
+          <li><a  class="login"href="login.html">LOGIN</a></li>
+          <li><select id="option-nav">
+            <option >BIRTHDAY CAKE</option>
+            <option>PARTIES CAKE</option>
+            <option>WEDDING CAKE</option>
+            <option>WEDDING CAKE</option>
+          </select></li>
+          <li><a  class="gallery" href="galery.html">GALLERY</a></li>
+          <li><a class="sale" href="products.html">PRODUCTS</a></li>
+        </ul>
+    </div>
+ 
+    <div class="nav-icons">
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass search-icon icons"></i>
+      </div>
+      <div class="cart-icon">
+        <i class="fa-solid fa-cart-arrow-down cart-icon icons"></i>
+      </div>
+    </div>
+  
+  </div>
+    <div class="slider-ramp">
+       <div class="slider">
+         <div class="slide">
+          <img src="images/cakeff.png" id="cake1">
+         </div>
+         <div class="slide">
+          <img src="images/finalcake.png" id="cake2">
+         </div>
+         <div class="slide">
+          <img src="images/img3.png" id="cake3">
+         </div>
+         <div class="slide">
+          <img src="images/img6.png" id="cake4">
+         </div>       
+       </div>
+       <div class="images-control">
+        <a href="">
+          <img src="images/cakeff.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/finalcake.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/img3.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/img6.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/Clipped_image_20241009_223752.png" alt="">
+        </a>
+        <a href="">
+          <img src="images/img1.png" alt="">
+        </a>
+       </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

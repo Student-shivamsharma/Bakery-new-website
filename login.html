@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta class="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+   <link rel="stylesheet" href="style.css"> 
+   <link rel="stylesheet" href="mobile.css"> 
+</head>
+<body>
+
+  <body>
+    <div class="navbar">
+
+      <div class="nav-logo">
+        <div class="logo">
+          <img src="images/bakerylogo1.png" id="logo-nav">
+        </div>
+      </div>
+
+      <div class="nav-options">
+          <ul>
+            <li><a class="home" href="index.html">HOME</a></li>
+            <li><a  class="login"href="login.html">LOGIN</a></li>
+            <li><select id="option-nav">
+              <option >BIRTHDAY CAKE</option>
+              <option>PARTIES CAKE</option>
+              <option>WEDDING CAKE</option>
+              <option>WEDDING CAKE</option>
+            </select></li>
+            <li><a  class="gallery" href="galery.html">GALLERY</a></li>
+            <li><a class="sale" href="products.html">PRODUCTS</a></li>
+          </ul>
+      </div>
+   
+      <div class="nav-icons">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass search-icon icons"></i>
+        </div>
+        <div class="cart-icon">
+          <i class="fa-solid fa-cart-arrow-down cart-icon icons"></i>
+        </div>
+      </div>
+    
+    </div>
+    <div class="regform">
+         <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="bb630436-103c-4bfb-a786-778f25d6b03d">
+
+        <h1 id="textreg">REGISTRATION</h1>
+
+        <div class="input-box">
+
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" class="username inputlogin" required>
+           <i class="bx bxs-user"></i>
+          </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Username" class="fullname inputlogin" required>
+            <i class="bx bxs-user"></i>
+          </div>
+
+          <div class="input-field">
+            <input type="email" placeholder="Email" class="email inputlogin" required>
+            <i class="bx bxs-envelope"></i>
+          </div>
+
+          <div class="input-field">
+            <input type="number" placeholder="Phone Number" class="phone inputlogin" required>
+            <i class="bx bxs-phone"></i>
+          </div>
+  
+  
+        <div class="input-box">
+  
+          <div class="input-field">
+            <input type="password"class="passlogin"  placeholder="Password" required>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+  
+          <div class="input-field">
+            <input type="password" class="passlogin" placeholder="Confirm Password" required>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+        </div>
+          <label><input type="checkbox">I hereby declare that the above information provided is true and correct</label>
+          <button type="Submit" id="btn"> ORDER NOW</button>
+          <div class="imgchoco"></div>
+      </form> 
+    </div>
+  
+</body>
+</html>

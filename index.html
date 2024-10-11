@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <div class="navbar">
+
+    <div class="nav-logo">
+      <div class="logo">
+        <img src="images/bakerylogo1.png" id="logo-nav">
+      </div>
+    </div>
+
+    <div class="nav-options">
+        <ul>
+          <li><a class="home" href="index.html">HOME</a></li>
+          <li><a  class="login"href="login.html">LOGIN</a></li>
+          <li><select id="option-nav">
+            <option >BIRTHDAY CAKE</option>
+            <option>PARTIES CAKE</option>
+            <option>WEDDING CAKE</option>
+            <option>WEDDING CAKE</option>
+          </select></li>
+          <li><a  class="gallery" href="galery.html">GALLERY</a></li>
+          <li><a class="sale" href="products.html">PRODUCTS</a></li>
+        </ul>
+    </div>
+ 
+    <div class="nav-icons">
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass search-icon icons"></i>
+      </div>
+      <div class="cart-icon">
+        <i class="fa-solid fa-cart-arrow-down cart-icon icons"></i>
+      </div>
+    </div>
+  
+  </div>
+    <div class="first-secondportion">
+    <div class="content">
+      <input type="text" class = "input hide" placeholder="Enter the page for Search">
+      <p class="head">
+        DELICIOUS CAKES BAKERY CATEGORY <span id="cup">CUP CAKE</span>
+      </p>
+      <p class="content1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat necessitatibus dolores est incidunt? Repellat, nulla at! Asperiores tenetur nemo veniam illo corrupti.
+      </p>
+      <button id="order-btn">ORDER NOW</button>
+    </div>
+    <div class="main-img">
+      <div class="img"><img src="images/finalcake.png" id="cake-index-img"></div>
+    </div>
+    <div class="cart-p">
+    <div class="cart hide">
+      <div class="cart1"><img id="silk" src="images/silk.jpeg" height = 50px>Cart Item 01<pre class="plus">+</pre> </div>
+      <span>$15.09</span>
+      <div class="cart2"><img id="pastry" src="images/pastry.webp" height = 50px>Cart Item 02 <pre class="plus">+</pre> </div>
+      <span>$15.09</span>
+      <div class="cart3"><img id="choco" src="images/choco.webp" height = 50px>Cart Item 03 <pre class="plus">+</pre> </div>
+      <span>$15.09</span>
+      <div class="cart4"><img id="cake1" src="images/img1.png" height = 50px>Cart Item 04 <pre class="plus">+</pre> </div>
+      <span>$15.09</span>
+      <button id="btn-cart">Checkout Now</button>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,169 @@
+@media (max-width : 1000px){
+  
+  .first-secondportion{
+    display: inline-block;
+ } 
+ #order-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20vmin;
+}
+ .content{
+  width : 100%;
+  text-align: center;
+  padding: 10px;
+  height : 450px;
+ 
+}
+   .main-img{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+   }
+.cart-p{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.cart{
+  width : 40vmin;
+}
+
+.box{
+  width : 300px;
+  flex-grow: 1;
+}
+}
+@media (max-width : 720px){
+  .slider{
+    display: none;
+   }
+  
+  #order-btn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vmin;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .slider-ramp {
+    height: 70vh;
+    max-width: 80vw;
+    bottom: 100px;
+  }
+  .slider {
+    height: 30rem;
+    width: 30rem;
+    border-width: 5rem;
+  }
+  .slide img {
+    height: 8rem;
+  }
+  .images-control img {
+    height: 8rem;
+    width: 8rem;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .content1{
+    text-align: center;
+    margin-right: 10vmin;;
+  }
+  .head{
+    margin-right: 10vmin;
+  }
+  
+ .main-img{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top : 200px;
+ }
+ #cake-index-img{
+  height: 300px;
+ }
+  #order-btn{
+    height : 10vmin;
+    width : 20vmin;
+    font-size: 0.75rem;
+    color  :red;
+    position: relative;
+    left : 120px;
+
+  }
+  
+  .slider-ramp {
+    height: 60vh;
+  }
+
+  .slider {
+    height: 25rem;
+    width: 25rem;
+    border-width: 3rem;
+  }
+  .input{
+    margin-right: 30vmin;
+  }
+  .slide img {
+    height: 6rem;
+  }
+
+  .images-control img {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+@media (max-width : 400px){
+  #textreg{
+  font-size: 1.2rem;
+}
+
+.input-box{
+  margin-bottom: 50vmin;
+}
+
+}
+
+@media (max-width : 900px){
+  .navbar{
+    height : 500px;
+    display: grid;
+  }
+  #logo-nav{
+    margin-left: 30vmin;
+    height: 150px;
+    width: 150px;
+  }
+  .nav-icons{
+    margin-left: 30vmin;
+    display: flex;
+    gap : 10vmin;
+  }
+}
+@media (max-width : 400px){
+  .navbar{
+    padding:  20px;
+  }
+  .icons{
+    position: relative;
+    right: 50px;
+  font-size: 50px;
+}
+.logo{
+ position: relative;
+ right: 50px;
+}
+.nav-options ul{
+  display: grid;
+  margin-bottom: 2vmin;
+}
+
+
+}
