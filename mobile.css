@@ -28,6 +28,7 @@
 }
 .cart{
   width : 40vmin;
+  margin-top: 20vmin;
 }
 
 .box{
@@ -84,7 +85,8 @@
   width: 100%;
   text-align: center;
   position: relative;
-  top : 200px;
+  top : 150px;
+  right: 25px;
  }
  #cake-index-img{
   height: 300px;
@@ -150,6 +152,12 @@
 @media (max-width : 400px){
   .navbar{
     padding:  20px;
+    height : 650px;
+  }
+  .cart{
+    position: relative;
+    top : 150px;
+    left : 5px;
   }
   .icons{
     position: relative;
@@ -166,4 +174,9 @@
 }
 
 
+}
+@media (max-width : 650px){
+  .cart{
+    margin-top: 40vmin;
+  }
 }
